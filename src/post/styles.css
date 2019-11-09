@@ -1,0 +1,31 @@
+@font-face {
+    font-family: thinfontStyle; 
+    src: url(../asets/thin.woff2);
+  } 
+  @font-face {
+    font-family: boldfontStyle; 
+    src: url(../asets/bold.woff2);
+  } 
+  @font-face {
+    font-family: thinitalicfontStyle; 
+    src: url(../asets/thinitalic.woff2);
+  } 
+  
+  
+    @font-face {
+      font-family: regularfontStyle; 
+      src: url(../asets/ragular.woff2);
+    }
+
+.emphasized{
+color: rebeccapurple;
+font-family: boldfontStyle;
+}
+
+#nextsteps {
+    color: blue;
+ }
+ 
+ .emphasized {
+    font-size: 1.2em;
+ }

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: thinfontStyle; 
+    src: url(../../asets/thin.woff2);
+  }
+
+  .footer_contener{
+z-index: 100;
+    position: relative;
+    bottom: 0px;
+  }
+.copyrights{
+  position: relative;
+  bottom: 0px;
+  padding: 0.2rem;
+  background-color: #6d39a0;
+color: white;
+font-family: thinfontStyle;
+text-align: center;
+}
+
+
+.socalicon_Llink {
+    display: block;
+    color: white;
+    text-align: center;
+   
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .socalicon_li{
+    float: left;
+  }
+
+  .socalicon_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 30px;
+    background-color: #333;
+  } 
+
+  .copyright{
+    float: right;
+  }
+  .design_by{
+    float: left;  
+  }
+  .nav-item{
+font-size: 30px;
+  }
+
+
+ 
+  
+ 

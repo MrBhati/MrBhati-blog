@@ -1,0 +1,51 @@
+@font-face {
+    font-family: regularfontStyle; 
+    src: url(../../asets/ragular.woff2);
+  }
+
+  @font-face {
+    font-family: thinfontStyle; 
+    src: url(../../asets/thin.woff2);
+  }
+.blog_header{
+ margin-bottom: 20px;
+}
+.top_center_heading{
+    padding: 0.5rem;
+    padding-bottom: 2px !important;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   font-size: 40px;
+   font-family: regularfontStyle;
+   font-weight: 500;
+   font-style: bold;
+}
+.navbar_left_heading{
+display: none;
+    font-family: regularfontStyle; 
+
+}
+
+.nav_link{
+    color: rgb(0, 0, 0);
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    font-family: thinfontStyle;
+    font-size: 18px;    
+    text-decoration: none;
+}
+
+.nav_link:hover{
+  color: #6d39a0;
+}
+
+@media (max-width: 991.98px) {
+    .top_center_heading{
+        display: none;
+    }
+    .navbar_left_heading{
+        display: inline;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+}

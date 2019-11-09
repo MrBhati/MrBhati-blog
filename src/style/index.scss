@@ -1,0 +1,19 @@
+$color: green;  
+
+@font-face {
+    font-family: myFirstFont; 
+    src: url(../asets/ragular.woff2);
+  }
+
+  a:hover {
+    color: #47069c !important;
+  }
+  html{
+   //   font-family: myFirstFont;
+  }
+  .flot_left{
+    float: right;
+    display: block;
+    background-color: aqua;
+  }
+

@@ -1,0 +1,206 @@
+@font-face {
+    font-family: thinfontStyle; 
+    src: url(../asets/thin.woff2);
+  } 
+  @font-face {
+    font-family: boldfontStyle; 
+    src: url(../asets/bold.woff2);
+  } 
+  @font-face {
+    font-family: thinitalicfontStyle; 
+    src: url(../asets/thinitalic.woff2);
+  } 
+  
+  
+    @font-face {
+      font-family: regularfontStyle; 
+      src: url(../asets/ragular.woff2);
+    }
+
+
+    .blanck_divider{
+      height:  50px;
+    }
+
+ 
+.post_title{
+  color: #000000;
+  font-family: boldfontStyle; 
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+  font-size: 2.2rem;
+  line-height: 1.25;
+}
+//-------------------------------------------------------------------------news latter box style---------------------------------------------------------------------------------
+
+.news_latter{
+  border-radius: 5px;
+  padding: 25px;
+  background-color: rgba(239, 223, 255, 0.87);
+}
+.news_latter_title{
+  color: #6d39a0;
+  font-family: regularfontStyle; 
+  font-size: 20px;
+}
+.news_latter_btn{
+  border: none; 
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: regularfontStyle;  
+  padding: 8px 12px;
+  background-color: #6d39a0;
+}
+.news_latter_textfiled{
+
+  color: #6d39a0;
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  border: 0.5px solid #6d39a0;
+  margin-bottom: 10px;
+  margin-top: 10px; 
+  padding-left: 10px;
+}
+.news_latter_textfiled::placeholder{
+  color: #6d39a0;
+  font-family: thinitalicfontStyle; 
+  font-size: 16px;
+}
+
+//----------------------------------------------------------------------- next previous post navigation style --------------------------------------------------------------------   
+
+.next_previous_btn{
+  height: 30px;
+}
+.flot_right{
+  float: right;
+}
+
+.post_previous{
+  display: block;
+  font-size: 15px;
+  font-family: thinitalicfontStyle; 
+  color: rgb(59, 57, 57);
+}
+
+.post_previous_small{
+  display: block;
+  font-size: 15px;
+ display: none;
+  font-family: thinitalicfontStyle; 
+  color: rgb(59, 57, 57);
+}
+
+.post_next_small{
+  display: block;
+  display: none;
+font-size: 15px;
+float: right;
+  font-family: thinitalicfontStyle; 
+  color: rgb(59, 57, 57);
+}
+.post_next{
+  display: block;
+font-size: 15px;
+float: right;
+  font-family: thinitalicfontStyle; 
+  color: rgb(59, 57, 57);
+}
+.post_nav_title:hover{
+  color: #6d39a0;
+  text-decoration: underline #9e5edfc9;
+}
+
+.post_nav_title{
+ 
+}
+
+.post_nav_title_next{
+  margin-top: -15px;
+  color: #6d39a0;
+  float: right;
+  font-family: regularfontStyle; 
+  font-size: 20px;
+}
+.post_nav_title_previous{
+  margin-top: -15px;
+  float: left;
+  color: #6d39a0;
+  font-family: regularfontStyle; 
+  font-size: 20px;
+}
+
+
+.hr_divider{
+  margin-bottom: 30px;
+  margin-top: 40px;
+  height: 1px;
+  width: 90%;
+  background-color: rgba(59, 57, 57, 0.11);;
+  border: none;
+}
+
+
+@media (min-width: 0px) and (max-width: 991.98px) { 
+  .post_next_small{
+    display: block;
+  }
+  .next_previous_btn{
+display: none;
+background-color: aqua;
+  }
+  .post_previous_small{
+    display: block;
+  }
+  .post_nav_title_previous{
+  display: none;
+  }
+  .post_nav_title_next{
+    display: none;
+  }
+}
+// -------------------------------------------------------------- post auther header --------------------------------------------------------------------------------------//
+.auther_contener{
+  padding: 10px;
+ 
+}
+.author_image{
+ margin: 0px 20px;
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+   }
+
+   .author_name{
+     color: #6d39a0;
+  font-family: regularfontStyle; 
+  font-size: 20px;
+  width: 100%;
+
+   }
+ 
+   .author_post{
+    margin-top: -5px; 
+font-family: thinfontStyle; 
+  font-size: 14px;
+   }
+   .author_discription{
+    margin-top: -5px; 
+    display: block;
+    line-height: 1.25;
+font-family: thinfontStyle; 
+  font-size: 14px;
+   }
+   .author_post_read_time{
+    margin-top: -5px; 
+
+font-family: thinfontStyle; 
+  font-size: 16px;
+   }
+   .author_post_date{
+    margin-top: -5px; 
+
+font-family: thinfontStyle; 
+  font-size: 16px;
+   }
